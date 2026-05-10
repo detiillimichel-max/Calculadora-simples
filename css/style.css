@@ -99,16 +99,17 @@ body {
     color: #ef6c00;
 }
 
+/* Nova classe que alarga os botões AC e 0 com segurança */
+.span-two {
+    grid-column: span 2;
+    border-radius: 20px;
+    aspect-ratio: auto;
+}
+
+/* Botão de igual ajustado para 1 coluna apenas */
 .btn.equal {
     background: var(--accent);
     color: white;
-    border-radius: 15px;
-    grid-column: span 2;
-    aspect-ratio: auto;
+    border-radius: 50%;
+    aspect-ratio: 1;
 }
-
-.btn.zero {
-    border-radius: 15px;
-    aspect-ratio: auto;
-}
-
